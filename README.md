@@ -84,18 +84,18 @@ print("Recommended Movies:")
 print(recommended_movies)
 ```
 ## Advantages
-- **Simple Implementation: Easy to understand and implement.
-- **Item-Based Recommendations: Effective for recommending similar items.
-- **Scalability: Handles large datasets reasonably well with optimization.
+- **Simple Implementation:** Easy to understand and implement.
+- **Item-Based Recommendations:** Effective for recommending similar items.
+- **Scalability:** Handles large datasets reasonably well with optimization.
 
 ## Disadvantages
-- **Cold Start Problem: New movies with no ratings won't be recommended.
-- **Popularity Bias: Popular movies might overshadow less popular ones.
-- **Scalability Issues: Computing similarity for very large datasets can be resource-intensive.
+- **Cold Start Problem:** New movies with no ratings won't be recommended.
+- **Popularity Bias:** Popular movies might overshadow less popular ones.
+- **Scalability Issues:** Computing similarity for very large datasets can be resource-intensive.
 ## Usage
-- **Ensure you have ratings.csv and movies.csv in your working directory.
-- **Run the script to load data, compute similarities, and get recommendations.
-- **Feel free to modify the example movie ID to test different recommendations.
+- **Ensure you have ratings.csv and movies.csv in your working directory.**
+- **Run the script to load data, compute similarities, and get recommendations.**
+- **Feel free to modify the example movie ID to test different recommendations.**
 
   ## License
 
